@@ -68,7 +68,7 @@ O arquivo de documentação que você está lendo. Ele serve como o ponto de ent
 * 📜 LICENSE
 
 Contém a licença do projeto (MIT License), que define os termos legais sob os quais o código pode ser usado.
-
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
