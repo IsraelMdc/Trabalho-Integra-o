@@ -42,22 +42,32 @@ O trabalho foca na função **`f(x) = e^(-x^2)`** e calcula a integral definida 
 ---
 
 ## 📁 Estrutura do Repositório
-.
-├── 📓 trabalho_calculo.ipynb
-|
-├── 🖼️ imagens/
-|   |
-│   ├── grafico_comparacao.png
-|   |
-│   ├── grafico_erro.png
-|   |
-│   └── grafico_integral.png
-|
-├── ⚙️ requirements.txt
-|
-├── 📄 README.md
-|
-├── 📜 LICENSE
+
+* 📓 trabalho_calculo.ipynb
+
+O coração do projeto. Este Jupyter Notebook contém todo o desenvolvimento, desde a importação das bibliotecas, a implementação das funções, a geração dos resultados e a criação dos gráficos para análise visual.
+
+* 📁 imagens/
+
+Pasta que armazena os gráficos gerados pelo notebook para manter o repositório organizado.
+
+🖼️ grafico_comparacao.png
+
+🖼️ grafico_erro.png
+
+🖼️ grafico_integral.png
+
+* ⚙️ requirements.txt
+
+Um arquivo essencial que lista todas as bibliotecas Python necessárias para executar o projeto, permitindo uma instalação fácil com pip install -r requirements.txt.
+
+* 📄 README.md
+
+O arquivo de documentação que você está lendo. Ele serve como o ponto de entrada do projeto, explicando seu propósito, como executá-lo e os resultados obtidos.
+
+* 📜 LICENSE
+
+Contém a licença do projeto (MIT License), que define os termos legais sob os quais o código pode ser usado.
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -84,7 +94,7 @@ Siga os passos abaixo para executar o notebook em seu ambiente local.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/IsraelMdc/Trabalho-Integracao.git
     cd seu-repositorio
     ```
 
