@@ -42,16 +42,16 @@ O trabalho foca na função **`f(x) = e^(-x^2)`** e calcula a integral definida 
 ---
 
 ## 📁 Estrutura do Repositório
-
-├── trabalho_calculo.ipynb # O Jupyter Notebook com todo o código, análise e gráficos.
-├── imagens/ # Pasta contendo os gráficos gerados pelo notebook.
-│ ├── grafico_comparacao.png
-│ ├── grafico_erro.png
-│ └── grafico_integral.png
-├── requirements.txt # Arquivo com as dependências do projeto.
-└── README.md # Este arquivo.
-
-
+.
+├── 📓 trabalho_calculo.ipynb
+├── 🖼️ imagens/
+│   ├── grafico_comparacao.png
+│   ├── grafico_erro.png
+│   └── grafico_integral.png
+├── ⚙️ requirements.txt
+├── 📄 README.md
+├── 📜 LICENSE
+└── 📄 .gitignore
 ---
 
 ## 🛠️ Tecnologias Utilizadas
