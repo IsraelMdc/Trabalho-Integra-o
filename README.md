@@ -2,7 +2,7 @@
 
 ### Trabalho da Disciplina de Cálculo I
 
-Este repositório contém a implementação de um método para aproximar integrais não elementares utilizando Séries de Taylor (especificamente, a Série de Maclaurin). O projeto foi desenvolvido como parte da avaliação da disciplina de Cálculo I.
+Este repositório contém a implementação de um método para aproximar integrais não elementares utilizando Séries de Taylor (especificamente, a Série de Mclaurin). O projeto foi desenvolvido como parte da avaliação da disciplina de Cálculo I.
 
 ---
 
@@ -27,7 +27,7 @@ Este repositório contém a implementação de um método para aproximar integra
 
 Muitas funções importantes em ciência e engenharia, como a função de erro `erf(x)` (baseada em `e^(-x²)`), não possuem uma primitiva que possa ser expressa em termos de funções elementares (polinômios, funções trigonométricas, exponenciais, etc.). Suas integrais são, portanto, "não elementares".
 
-Este projeto demonstra como superar essa limitação aproximando o integrando por um polinômio de Maclaurin. Uma vez que a função é representada por um polinômio, a integral pode ser facilmente calculada termo a termo.
+Este projeto demonstra como superar essa limitação aproximando o integrando por um polinômio de Mclaurin. Uma vez que a função é representada por um polinômio, a integral pode ser facilmente calculada termo a termo.
 
 O trabalho foca na função **`f(x) = e^(-x^2)`** e calcula a integral definida no intervalo **`[0, 1]`**, analisando a precisão da aproximação para diferentes ordens do polinômio.
 
@@ -36,7 +36,7 @@ O trabalho foca na função **`f(x) = e^(-x^2)`** e calcula a integral definida 
 ## 🔑 Conceitos-Chave
 
 - **Integrais Não Elementares:** Integrais de funções contínuas cujas primitivas não podem ser expressas em termos de funções elementares.
-- **Série de Taylor/Maclaurin:** Uma representação de uma função como uma soma infinita de termos, calculados a partir dos valores das derivadas da função em um único ponto. A Série de Maclaurin é um caso especial da Série de Taylor, centrada em `a=0`.
+- **Série de Taylor/Mclaurin:** Uma representação de uma função como uma soma infinita de termos, calculados a partir dos valores das derivadas da função em um único ponto. A Série de Mclaurin é um caso especial da Série de Taylor, centrada em `a=0`.
 - **Aproximação Polinomial:** Utilização de um polinômio finito para aproximar o comportamento de uma função mais complexa em um determinado intervalo.
 
 ---
@@ -134,7 +134,7 @@ Siga os passos abaixo para executar o notebook em seu ambiente local.
 
 ### Tabela de Resultados
 
-A tabela abaixo compara a integral aproximada com o valor de referência (calculado com `SciPy`) para diferentes ordens do polinômio de Maclaurin.
+A tabela abaixo compara a integral aproximada com o valor de referência (calculado com `SciPy`) para diferentes ordens do polinômio de Mclaurin.
 
 | Ordem (n) | Integral Aproximada | Valor de Referência (SciPy) | Erro Absoluto |
 | :-------: | :------------------ | :-------------------------- | :------------ |
